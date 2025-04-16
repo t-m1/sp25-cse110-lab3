@@ -1,72 +1,97 @@
-<!--
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Preliminary Project Brainstorming</title>
-  </head>
-  <body>
-  </body>
-</html>
--->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pancake Recipe</title>
+    <title>Preliminary Project Brainstorming</title>
     <link rel="icon" type="image/png" href="/favicon.png"/>
   </head>
   <body>
     <header>
-      <div>ALL RECIPE</div>
+      <div>Main Focus</div>
+      <span>What problem are we trying to solve?</span><br><br>
+      <section>Attendance List</section>
+      <ul>
+        <li>Ana Oneill</li>
+        <li>Lydia Williams</li>
+        <li>Colby Nunez</li>
+        <li>Kyron Ferrell</li>
+        <li>Asma Mcneil</li>
+        <li>Jada Salazar</li>
+      </ul>
+      <section>Links to sections</section>
       <nav>
         <ul>
-          <li><a href="#ingredients">Ingredients</a></li>
-          <li><a href="#steps">Steps</a></li>
+          <li><a href="#Agenda">Agenda</a></li>
+          <li><a href="#Previous">Previous</a></li>
           <li><a href="#subsribe">Subscribe</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <h1>Preliminary Project Brainstorming</h1>
+      <h2>4/16/25</h2>
       <img
-        src="https://images.unsplash.com/photo-1575853121743-60c24f0a7502?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGFuY2FrZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
-        alt="pancake"
+        src="https://www.mightybytes.com/wp-content/uploads/2020/06/ngl-whiteboard-1275w.jpg"
+        alt="brain"
         width="250"
       />
       
-      <h2 id="ingredients">Ingredients</h2>
+      <h2 id="Agenda">Agenda</h2>
       <ol>
-        <li><input type="checkbox" /> 1 ½ cups all-purpose flour</li>
-        <li><input type="checkbox" /> 3 ½ teaspoons baking powder</li>
-        <li><input type="checkbox" /> 1 teaspoon salt</li>
-        <li><input type="checkbox" /> 1 tablespoon white sugar</li>
-        <li><input type="checkbox" /> 1 ¼ cups milk</li>
-        <li><input type="checkbox" /> 1 egg</li>
+        <li><input type="checkbox" /> Introduce yourself again</li>
+        <li><input type="checkbox" /> Work through exercises</li>
+        <li><input type="checkbox" /> Familiarize yourself with the tools</li>
+        <li><input type="checkbox" /> Ask questions if needed</li>
       </ol>
-      <h2 id="steps">Steps</h2>
-      <h4>Step 1</h4>
+      <h2 id="Previous">Previous Meeting</h2>
+      <h3>Step 1</h3>
       <p>
-        In a large bowl, sift together the flour, baking powder, salt and sugar.
-        Make a well in the center and pour in the milk, egg and melted butter;
-        mix until smooth.
+       
       </p>
-      <h4>Step 2</h4>
+      <h3>Step 2</h3>
       <p>
-        Heat a lightly oiled griddle or frying pan over medium-high heat. Pour
-        or scoop the batter onto the griddle, using approximately 1/4 cup for
-        each pancake. Brown on both sides and serve hot.
+        
       </p>
+      <video width="400" controls>
+        <source src=".mp4" type="video/mp4">
+      </video>
+      
     </main>
-    <hr />
+    <hr>
     <footer>
-      <h6 id="subscribe">Subscribe</h6>
-      <form onsubmit="alert('Subscribed')">
-        <input type="text" placeholder="Enter Email Address" />
-        <button>Submit</button>
-      </form>
-      <br />
-      <div>&copy; dakota kelly at Allrecipe.com</div>
+      <form>
+        <textarea id="explanation" name="explanation" rows="4" cols="50">Here is a form where you can fill in your information.</textarea><br>
+        <label for="ages">How old are you?:</label>
+        <input list="ages" name="age" id="age">
+        
+        <datalist id="ages">
+          <option value="13-18">
+          <option value="18-25">
+          <option value="25-35">
+          <option value="35-50">
+          <option value="50+">
+        </datalist>
+        <br><br>
+        <fieldset>
+         <label for="fname">First name:</label>
+         <input type="text" id="fname" name="fname"><br><br>
+         <label for="lname">Last name:</label>
+         <input type="text" id="lname" name="lname"><br><br>
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email"><br><br>
+        </fieldset>
+        <br>
+        <label for="food">Favorite food?:</label>
+        <select name="food" id="food">
+          <option value="volvo">Pizza</option>
+          <option value="saab">Burger</option>
+          <option value="opel">Ramen</option>
+          <option value="audi">Tacos</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+       </form>
     </footer>
   </body>
 </html>
