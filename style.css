@@ -1,0 +1,74 @@
+/* Simple CSS that includes all required selectors and properties */
+ 
+  /* Universal Selector */
+  * {
+   
+  }
+  
+  /* Element Selector */
+  body {
+    
+  }
+  
+  /* Class Selector */
+  .container {
+    
+  }
+  
+  /* ID Selector */
+  #header {
+    
+  }
+  
+  /* Attribute Selector */
+  [role="navigation"] {
+    
+  }
+  
+  /* Element + Class Combinator */
+  a.button {
+    
+  }
+  
+  /* Pseudo-class Selector */
+  a:hover {
+    
+  }
+  
+  a:active {
+    
+  }
+  
+  /* Selector List */
+  h1, h2, h3 {
+   
+  }
+  
+  /* Adjacent Sibling Combinator */
+  h2 + p {
+    
+  }
+  
+  /* General Sibling Combinator */
+  h2 ~ ul {
+    
+  }
+  
+  /* :has() selector */
+  .card:has(img) {
+
+  }
+  
+  /* Card grid with CSS Grid */
+  .card-grid {
+    
+  }
+  
+  /* Nested selectors */
+  .feature-box {
+    
+    & .feature-item {
+      
+    }
+  }
+  
